@@ -1,6 +1,4 @@
 /*
-CSCI 176 - Final Program
-   Virang Doshi 109497212
 
 This program is a comparison between serial and parallel version of linear search algorithm
 This code includes serial serial code, followed by parallel version of the same
