@@ -109,7 +109,7 @@ public class Project {
                 {
                     MyThread thread = new MyThread(n, arr, threadCount, searchArray[count]);
                     
-                    thread.run();
+                    thread.start();
                     if(Globals.found == true)
                         break;                                     // if search successful, then no need to create other threads
                 }
