@@ -35,7 +35,9 @@ public class MyThread extends Thread {
         
         this.val = val;                           // value to be searched
         if(Globals.shouldDisplay)                 // display the information for only one search operation, for n threds, so it is easier to read
-            displayInfo();
+            {
+                displayInfo();
+            }
     }
     void displayInfo()                            // This method displays information for each thread
     {
